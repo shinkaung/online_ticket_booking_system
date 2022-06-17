@@ -1,0 +1,377 @@
+          /* Start of Header Css */
+#noti{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(91, 206, 148);
+}
+#logo{
+    width: 200px;
+    height: 40px;
+    float: left;
+    margin-left: 220px;
+    margin-top: 10px;   
+}
+
+ul {
+    text-align: center;
+  }
+  
+  ul li {
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px 20px;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    transition: all .2s;
+  }
+  
+  li ul a {
+    color: #fff;
+    font-size: 18px;
+  }
+            /* End of Header Css */
+
+
+            /* Start of Body Css */
+#mid{
+  width: 100%;
+  height: 460px;
+  background-color:rgb(91, 206, 148);
+}
+#intro{
+  width: 500px;
+  padding-top: 50px;
+  height: 350px;
+  color: rgb(255, 255, 255);
+  float: left;
+  margin-left: 220px;
+}
+#operator{
+  width: 120px;
+  height: 30px;
+  background-color: rgba(1, 10, 61, 0.664);
+  float: left;
+  margin-right: 20px;
+  margin-left: 10px;
+  border-radius: 15px;
+  padding-left: 10px;
+}
+#onum{
+  padding-top: 5px;
+  font-size: 20px;
+  float: left;
+  margin-right: 8px;
+  color: gold;
+}
+#opt{
+  padding-top: 5px;
+  float: left;
+}
+#secure_payment{
+  width: 220px;
+  height: 30px;
+  background-color: rgba(1, 10, 61, 0.664);
+  float: left;
+  border-radius: 15px;
+}
+#c_logo{
+  width: 20xp;
+  height: 20px;
+  padding-left: 5px;
+  padding-top: 5px;
+  float: left;
+}
+#secure{
+  float: left;
+  margin-right: 10px;
+  padding-top: 5px;
+  margin-left: 7px;
+}
+#search-ticket{
+  width: 400px;
+  height: 330px;
+  background-color: rgb(255, 255, 255);
+  float: right;
+  margin-right: 200px;
+  margin-top: 40px;
+  border-radius: 15px;
+  box-shadow: 5px 10px 18px #888888;
+}
+#title-search{
+  width: 300px;
+  height: 30px;
+  text-align: center;
+  font-size: 20px;
+  color: rgb(2, 2, 165);
+  padding-top: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+#starting-point{
+  width: 340px;
+  height: 50px;
+  border-radius: 9px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 10px;
+  border: solid;
+}
+#destination-point{
+  width: 340px;
+  height: 50px;
+  border-radius: 9px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+  border: solid;
+}
+#calendar{
+  width: 340px;
+  height: 50px;
+  border-radius: 9px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+  border: solid;
+  
+}
+#button-div{
+  width: 400px;
+  height: 50px;
+  margin-bottom: 20px;
+  padding-left: 17px;
+}
+.button {
+  background-color: #ff0800;
+  border: none;
+  color: white;
+  padding-left: 130px;
+  padding-right: 150px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 11px;
+}
+#from-combo{
+  float: right;
+  width: 260px;
+  height: 40px;
+  margin-right: 20px;
+  margin-top: 4px;
+}
+#from-logo{
+  padding-top: 10px;
+  padding-left: 20px;
+  float: left;
+  width: 40px;
+  height: 30px;
+}
+#dest-combo{
+  float: right;
+  width: 260px;
+  height: 40px;
+  margin-right: 20px;
+  margin-top: 4px;
+}
+#dest-logo{
+  padding-top: 10px;
+  padding-left: 20px;
+  float: left;
+  width: 40px;
+  height: 30px;
+}
+#im-calendar{
+  float: right;
+}
+#calendar-logo{
+  padding-top: 10px;
+  padding-left: 20px;
+  float: left;
+  width: 40px;
+  height: 30px;
+}
+#from-place{
+  padding: 1em 6em;
+  background: #ffffff;
+  color: #727272;
+  appearance: none;
+  border: none;
+}
+#to-place{
+  padding: 1em 6em;
+  background: #ffffff;
+  color: #727272;
+  appearance: none;
+  border: none;
+}
+#show-calendar{
+  width: 210px;
+  height: 40px;
+  margin-right: 50px;
+  margin-top: 3px;
+}
+#help-div{
+  width: 100%;
+  height: 400px;
+  padding-top: 50px;
+}
+#bus-operator{
+  width: 250px;
+  height: 300px;
+  float: left;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-left: 220px;
+  margin-right: 30px;
+  border: solid 0.3px;
+  padding: 4px;
+}
+#bus-logo{
+  width: 130px;
+  height: 90px;
+  padding-top: 10px;
+  padding-left: 80px;
+  padding-right: 40px;
+}
+#bus-info{
+  width: 250px;
+  height: 100px;
+  text-align: center;
+  color: rgb(4, 4, 163);
+}
+#bus-btn{
+  width: 190px;
+  height: 50px;
+  padding-top: 30px;
+  padding-left: 60px;
+}
+#button-bus{
+  background-color: white;
+  border: solid rgb(79, 79, 233) 0.2px;
+  color: rgb(79, 68, 240);
+  border-radius: 15px;
+  padding: 10px;
+}
+#button-bus:hover{
+  background-color: rgb(82, 82, 230);
+  color: white;
+  transition: 0.1s;
+}
+#instant-booking{
+  width: 250px;
+  height: 300px;
+  float: left;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-right: 30px;
+  border: solid 0.3px;
+  padding: 4px;
+}
+#Secure-payment{
+  width: 250px;
+  height: 300px;
+  float: left;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-right: 30px;
+  border: solid 0.3px;
+  padding: 4px;
+}
+#Help{
+  width: 250px;
+  height: 300px;
+  float: left;
+  border-radius: 5px;
+  margin-top: 20px;
+  border: solid 0.3px;
+  padding: 4px;
+}
+#popular-trip{
+  width: 100%;
+  height: 600px;
+  padding-top: 20px;
+}
+#popular-title{
+  text-align: center;
+  color: rgb(1, 1, 109);
+}
+#Yan-Man{
+  width: 250px;
+  height: 300px;
+  background-image: url(images/mandalay.png);
+  background-repeat: no-repeat;
+  border-radius: 5px;
+}
+#Yan-Ban{
+  width: 250px;
+  height: 300px;
+  background-image: url(images/bagan.jpg);
+  background-repeat: no-repeat;
+  border-radius: 5px;
+}
+#Yan-Nay{
+  width: 250px;
+  height: 300px;
+  background-image: url(images/Myanmar-Naypyidaw.jpg);
+  background-repeat: no-repeat;
+  border-radius: 5px;
+}
+#Yan-Maw{
+  width: 250px;
+  height: 300px;
+  background-image: url(images/mawlamyaing.png);
+  background-repeat: no-repeat;
+  border-radius: 5px;
+}
+          /* End of Body Css */
+
+
+          /* Start of Footer Css */
+#footer{
+  width: 100%;
+  height: 250px;
+  background-color: #1d1a30;
+}
+
+#footer-contact{
+  width: 400px;
+  height: 230px;
+  margin-left: 220px;
+  padding-top: 20px;
+  float: left;
+}
+#footer-logo{
+  width: 400px;
+  height: 50px;
+  background-image: url(images/mmbusticket-hor-sm-dark.png);
+  background-repeat: no-repeat;
+}
+#contact{
+  width: 400px;
+  height: 150px;
+  color: white;
+}
+#footer-info{
+  width: 300px;
+  height: 210px;
+  float: left;
+  margin-left: 100px;
+  color: #fff;
+}
+#footer-legal{
+  width: 200px;
+  height: 250px;
+  margin-left: 200px;
+  float: left;
+  color: white;
+}
+          /* End of Footer Css */

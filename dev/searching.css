@@ -1,0 +1,190 @@
+#search-div{
+    width: 100%;
+    height: 160px;
+}
+#search-trip{
+    width: 1010px;
+    height: 150px;
+    margin-left: 220px;
+    margin-top: 30px;
+    border-radius: 5px;
+    border:solid rgb(151, 150, 150) 0.5px;
+}
+#search-title{
+    width: 979.9px;
+    height: 49.6px;
+    padding-left: 30px;
+    padding-top: 0.4px;
+    background-color: rgb(104, 131, 179);
+    color: rgb(255, 253, 253);
+}
+#search-info{
+    width: 1000px;
+    height: 120px;
+}
+#search-from{
+    width: 230px;
+    height: 60px;
+    margin-top: 20px;
+    float: left;
+    border-radius: 5px;
+    margin-left: 15px;
+    border: solid 0.5px;
+
+}
+#search-from-logo{
+    float: left;
+    margin-top: 15px;
+    margin-left: 5px;
+    width: 30px;
+    height: 30px;
+}
+#search-from-combo{
+    float: right;
+    margin-top: 10px;
+    width: 190px;
+    height: 40px;
+}
+#from-trip{
+    padding: 1em 4em;
+    background: #ffffff;
+    color: #727272;
+    appearance: none;
+    border: none;
+}
+#search-to{
+    width: 230px;
+    height: 60px;
+    margin-top: 20px;
+    border-radius: 5px;
+    margin-left: 15px;
+    border: solid 0.5px;
+    float: left;
+}
+#search-date{    
+    width: 230px;
+    height: 60px;
+    margin-top: 20px;
+    border-radius: 5px;
+    margin-left: 15px;
+    border: solid 0.5px;
+    float: left;
+}
+#search-button{
+    width: 230px;
+    height: 60px;
+    margin-top: 20px;
+    border-radius: 5px;
+    margin-left: 15px;
+    border: solid 0.5px;
+    float: left;
+}
+#back-btn{
+    width: 150px;
+    height: 30px;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-left: 40px;
+    text-align: center;
+    display: inline-block;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+}
+#calender-image{
+    width: 180px;
+    height: 40px;
+    margin-bottom: 2px;
+}
+
+            /* End of Search Css */
+
+            /* Start of search output Css */
+
+#output-search{
+    width: 100%;
+    height: 4000px;
+/*    background-color: darkslateblue;  */
+    
+}
+#radio-div{
+    width: 200px;
+    height: 1000px;
+    margin-left: 200px;
+    float: left;
+}
+#time-radio{
+    width: 300px;
+    height: 244px;
+}
+#time-title{
+    width: 300px;
+    height: 45px;
+    padding-top: 15px;
+    font-size: 20px;
+    text-align: center;
+    border: solid 0.5px;
+}
+#day-radio{
+    width: 240px;
+    height: 160px;
+    padding-left: 60px;
+    padding-top: 10px;
+    border: solid 0.5px;
+}
+#operator-radio{
+    width: 300px;
+    height: 780px;
+}
+#operator-info{
+    width: 240px;
+    height: 700px;
+    padding-left: 60px;
+    padding-top: 10px;
+    border: solid 0.5px;
+}
+#search-output{
+    width: 1000px;
+    height: 2000px;
+    float: left;
+    margin-left: 218px;
+}
+#Yangon-Mandalay-Day{
+    width: 1000px;
+    height: 2050px;
+
+}
+#YM-bus{
+    width: 1010px;
+    height: 200px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    border: solid 0.5px;
+}
+#YM-info{
+    width: 280px;
+    height: 200px;
+    padding-left: 20px;
+    float: left;
+}
+#YM-logo{
+    width: 190px;
+    height: 160px;
+    padding-top: 40px;
+    padding-left: 150px;
+    float: left;
+    text-align: center;
+}
+#YM-btn{
+    width: 190px;
+    height: 180px;
+    float: right;
+    text-align: right;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+#Yangon-Mandalay-Afternoon{
+    width: 710px;
+    height: 1000px;
+    background-color:rgb(255, 0, 204);
+}

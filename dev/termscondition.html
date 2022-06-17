@@ -1,0 +1,89 @@
+<?php
+session_start();
+ echo $_SESSION['traveltime'];
+?>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="searching.css">
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="stylesheet" type="text/css" href="terms&condition.css">
+  <title></title>
+</head>
+<body>
+    <!------------------------------- Header Noti code ---------------------------------->
+    <header> 
+      <div id="noti">
+          <div id="logo">
+              <img src="images/logo.png">
+          </div>
+          <div>
+          <ul>
+              <li><a href="index.php">Home</a></li>
+              <li><a href="searching.html">Book Ticket</a></li>
+              <li><a href="Contact.php">Contact</a></li>
+              <li><a href="About.html">About</a></li>
+              <li><a href="Login.html">Logout</a></li>
+          </ul>
+          </div>
+      </div>
+  </header>
+
+    <!------------------------------- Terms and Conditions Code ---------------------------------->
+    <div class="term">
+      <h1 class="mb-5"><b>Terms & Condtions</b></h1>
+      <h2>MMBusTicket Standard</h2>
+      <p>MMBusTicket is one of the leading bus ticket booking systems in Myanmar. MMBusTicket is partnered with more than 20 major Bus operators in Myanmar, and it mainly offers online ticketing to more than a hundred destinations for bus travelers mainly in Myanmar.
+        Therefore, according to copyright laws, logo usage without permission will not be tolerated.</p>
+      <br>
+      <h2>Instant Confirmation</h2>
+      <p>Users need to confirm once the booking has been made or else it will automatically cancel.</p>
+      <br>
+      <h2>Payment Options</h2>
+      <p>MMBusTicket accepts several payment methods. You can pay with VISA, MASTER, MPU, CBPay and WaveMoney and direct cash. Other Payment platforms are not acceptable.</p>
+      <br>
+      <h2>Booking System</h2>
+      <p>Booking are automatically closed for the operators before two hours but cancellation can still be done.</p>
+      <br>
+      <h2>Travelling</h2>
+      <p>Foreigners need to depart with foreign affair operators.</p>
+      <br>
+  </div>
+  
+  
+          </div>
+    
+
+    <!---------------------------- Footer Code --------------------------------------->
+    <footer>
+      <div id="footer">
+          <div id="footer-contact">
+              <div id="footer-logo"></diV>
+              <div id="contact">
+                  <h2>Contact</h2>
+                  <p>09 777 111 811, 09 76543 0471, 09 76543 0474</p>
+                  <p><a herf="#">Ask a question</a></p>
+              </div>
+          </div>
+          <div id="footer-info">
+              <h2>INFORMATION</h2><br>
+              <p><a herf="">Find/Print Your Ticket</a></p>
+              <p><a herf="#">How to Open MPU Ecommerce</a></p>
+              <p><a her="#">How to buy using bank Transfer</a></p>
+          </div>
+          <div id="footer-legal">
+              <h2>LEGAL</h2><br>
+              <p><a herf="termscondition.html">Terms & Conditions</a></p>
+              <p><a herf="#">Privacy Policy</a></p>
+          </div>
+      </div>
+  </footer>
+
+</body>
+</html>
+<?php
+  session_destroy();
+?>
