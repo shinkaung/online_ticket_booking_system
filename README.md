@@ -1,6 +1,5 @@
 # online_ticket_booking_system
 This system is developed to provide online ticket booking system for the transportation buses. 
-# Online Ticket Car Booking System
 
 The Online Ticket Car Booking System is a web-based application developed using PHP, HTML, and CSS. It provides users with the ability to book car tickets online and offers an admin dashboard to manage various aspects of the system. This README file provides an overview of the system's features, setup instructions, and usage guidelines.
 
